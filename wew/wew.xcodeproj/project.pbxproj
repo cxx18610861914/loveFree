@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E271A251C34CCFF003124C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E271A241C34CCFF003124C6 /* main.m */; };
+		4E271A281C34CCFF003124C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E271A271C34CCFF003124C6 /* AppDelegate.m */; };
+		4E271A2B1C34CCFF003124C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E271A2A1C34CCFF003124C6 /* ViewController.m */; };
+		4E271A2E1C34CD00003124C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E271A2C1C34CD00003124C6 /* Main.storyboard */; };
+		4E271A301C34CD00003124C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E271A2F1C34CD00003124C6 /* Assets.xcassets */; };
+		4E271A331C34CD00003124C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E271A311C34CD00003124C6 /* LaunchScreen.storyboard */; };
+		4E271A3E1C34CD00003124C6 /* wewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E271A3D1C34CD00003124C6 /* wewTests.m */; };
+		4E271A491C34CD00003124C6 /* wewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E271A481C34CD00003124C6 /* wewUITests.m */; };
+		4E271A581C34CD44003124C6 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E271A571C34CD44003124C6 /* FirstViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E271A3A1C34CD00003124C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E271A181C34CCFE003124C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E271A1F1C34CCFE003124C6;
+			remoteInfo = wew;
+		};
+		4E271A451C34CD00003124C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E271A181C34CCFE003124C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E271A1F1C34CCFE003124C6;
+			remoteInfo = wew;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E271A201C34CCFF003124C6 /* wew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wew.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E271A241C34CCFF003124C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E271A261C34CCFF003124C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4E271A271C34CCFF003124C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4E271A291C34CCFF003124C6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4E271A2A1C34CCFF003124C6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4E271A2D1C34CD00003124C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E271A2F1C34CD00003124C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E271A321C34CD00003124C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4E271A341C34CD00003124C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E271A391C34CD00003124C6 /* wewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E271A3D1C34CD00003124C6 /* wewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wewTests.m; sourceTree = "<group>"; };
+		4E271A3F1C34CD00003124C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E271A441C34CD00003124C6 /* wewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E271A481C34CD00003124C6 /* wewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wewUITests.m; sourceTree = "<group>"; };
+		4E271A4A1C34CD00003124C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E271A561C34CD44003124C6 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		4E271A571C34CD44003124C6 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E271A1D1C34CCFE003124C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E271A361C34CD00003124C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E271A411C34CD00003124C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E271A171C34CCFD003124C6 = {
+			isa = PBXGroup;
+			children = (
+				4E271A221C34CCFF003124C6 /* wew */,
+				4E271A3C1C34CD00003124C6 /* wewTests */,
+				4E271A471C34CD00003124C6 /* wewUITests */,
+				4E271A211C34CCFF003124C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E271A211C34CCFF003124C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E271A201C34CCFF003124C6 /* wew.app */,
+				4E271A391C34CD00003124C6 /* wewTests.xctest */,
+				4E271A441C34CD00003124C6 /* wewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E271A221C34CCFF003124C6 /* wew */ = {
+			isa = PBXGroup;
+			children = (
+				4E271A261C34CCFF003124C6 /* AppDelegate.h */,
+				4E271A271C34CCFF003124C6 /* AppDelegate.m */,
+				4E271A291C34CCFF003124C6 /* ViewController.h */,
+				4E271A2A1C34CCFF003124C6 /* ViewController.m */,
+				4E271A2C1C34CD00003124C6 /* Main.storyboard */,
+				4E271A2F1C34CD00003124C6 /* Assets.xcassets */,
+				4E271A311C34CD00003124C6 /* LaunchScreen.storyboard */,
+				4E271A341C34CD00003124C6 /* Info.plist */,
+				4E271A231C34CCFF003124C6 /* Supporting Files */,
+				4E271A561C34CD44003124C6 /* FirstViewController.h */,
+				4E271A571C34CD44003124C6 /* FirstViewController.m */,
+			);
+			path = wew;
+			sourceTree = "<group>";
+		};
+		4E271A231C34CCFF003124C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E271A241C34CCFF003124C6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E271A3C1C34CD00003124C6 /* wewTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E271A3D1C34CD00003124C6 /* wewTests.m */,
+				4E271A3F1C34CD00003124C6 /* Info.plist */,
+			);
+			path = wewTests;
+			sourceTree = "<group>";
+		};
+		4E271A471C34CD00003124C6 /* wewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4E271A481C34CD00003124C6 /* wewUITests.m */,
+				4E271A4A1C34CD00003124C6 /* Info.plist */,
+			);
+			path = wewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E271A1F1C34CCFE003124C6 /* wew */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E271A4D1C34CD00003124C6 /* Build configuration list for PBXNativeTarget "wew" */;
+			buildPhases = (
+				4E271A1C1C34CCFE003124C6 /* Sources */,
+				4E271A1D1C34CCFE003124C6 /* Frameworks */,
+				4E271A1E1C34CCFE003124C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wew;
+			productName = wew;
+			productReference = 4E271A201C34CCFF003124C6 /* wew.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E271A381C34CD00003124C6 /* wewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E271A501C34CD00003124C6 /* Build configuration list for PBXNativeTarget "wewTests" */;
+			buildPhases = (
+				4E271A351C34CD00003124C6 /* Sources */,
+				4E271A361C34CD00003124C6 /* Frameworks */,
+				4E271A371C34CD00003124C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E271A3B1C34CD00003124C6 /* PBXTargetDependency */,
+			);
+			name = wewTests;
+			productName = wewTests;
+			productReference = 4E271A391C34CD00003124C6 /* wewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4E271A431C34CD00003124C6 /* wewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E271A531C34CD00003124C6 /* Build configuration list for PBXNativeTarget "wewUITests" */;
+			buildPhases = (
+				4E271A401C34CD00003124C6 /* Sources */,
+				4E271A411C34CD00003124C6 /* Frameworks */,
+				4E271A421C34CD00003124C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E271A461C34CD00003124C6 /* PBXTargetDependency */,
+			);
+			name = wewUITests;
+			productName = wewUITests;
+			productReference = 4E271A441C34CD00003124C6 /* wewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E271A181C34CCFE003124C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = MS;
+				TargetAttributes = {
+					4E271A1F1C34CCFE003124C6 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					4E271A381C34CD00003124C6 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 4E271A1F1C34CCFE003124C6;
+					};
+					4E271A431C34CD00003124C6 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 4E271A1F1C34CCFE003124C6;
+					};
+				};
+			};
+			buildConfigurationList = 4E271A1B1C34CCFE003124C6 /* Build configuration list for PBXProject "wew" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E271A171C34CCFD003124C6;
+			productRefGroup = 4E271A211C34CCFF003124C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E271A1F1C34CCFE003124C6 /* wew */,
+				4E271A381C34CD00003124C6 /* wewTests */,
+				4E271A431C34CD00003124C6 /* wewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E271A1E1C34CCFE003124C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E271A331C34CD00003124C6 /* LaunchScreen.storyboard in Resources */,
+				4E271A301C34CD00003124C6 /* Assets.xcassets in Resources */,
+				4E271A2E1C34CD00003124C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E271A371C34CD00003124C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E271A421C34CD00003124C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E271A1C1C34CCFE003124C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E271A2B1C34CCFF003124C6 /* ViewController.m in Sources */,
+				4E271A281C34CCFF003124C6 /* AppDelegate.m in Sources */,
+				4E271A251C34CCFF003124C6 /* main.m in Sources */,
+				4E271A581C34CD44003124C6 /* FirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E271A351C34CD00003124C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E271A3E1C34CD00003124C6 /* wewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E271A401C34CD00003124C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E271A491C34CD00003124C6 /* wewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E271A3B1C34CD00003124C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E271A1F1C34CCFE003124C6 /* wew */;
+			targetProxy = 4E271A3A1C34CD00003124C6 /* PBXContainerItemProxy */;
+		};
+		4E271A461C34CD00003124C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E271A1F1C34CCFE003124C6 /* wew */;
+			targetProxy = 4E271A451C34CD00003124C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E271A2C1C34CD00003124C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E271A2D1C34CD00003124C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4E271A311C34CD00003124C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E271A321C34CD00003124C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E271A4B1C34CD00003124C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4E271A4C1C34CD00003124C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E271A4E1C34CD00003124C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = wew/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Spring.wew;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4E271A4F1C34CD00003124C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = wew/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Spring.wew;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4E271A511C34CD00003124C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = wewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Spring.wewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wew.app/wew";
+			};
+			name = Debug;
+		};
+		4E271A521C34CD00003124C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = wewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Spring.wewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wew.app/wew";
+			};
+			name = Release;
+		};
+		4E271A541C34CD00003124C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = wewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Spring.wewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = wew;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4E271A551C34CD00003124C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = wewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Spring.wewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = wew;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E271A1B1C34CCFE003124C6 /* Build configuration list for PBXProject "wew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E271A4B1C34CD00003124C6 /* Debug */,
+				4E271A4C1C34CD00003124C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E271A4D1C34CD00003124C6 /* Build configuration list for PBXNativeTarget "wew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E271A4E1C34CD00003124C6 /* Debug */,
+				4E271A4F1C34CD00003124C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4E271A501C34CD00003124C6 /* Build configuration list for PBXNativeTarget "wewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E271A511C34CD00003124C6 /* Debug */,
+				4E271A521C34CD00003124C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4E271A531C34CD00003124C6 /* Build configuration list for PBXNativeTarget "wewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E271A541C34CD00003124C6 /* Debug */,
+				4E271A551C34CD00003124C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E271A181C34CCFE003124C6 /* Project object */;
+}
